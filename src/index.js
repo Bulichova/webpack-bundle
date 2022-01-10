@@ -1,6 +1,7 @@
 import itemTemplate from './templates/item.hbs'
 import generalItem from './templates/generalItem.hbs'
 import './coctails/createMarkup.js'
+import "./pexels/fetch.js"
 import './css/style.scss'
 function firstWorld() {
   const word = 'hello world'
@@ -8,9 +9,9 @@ function firstWorld() {
   text.textContent = word
   return text
 }
-const first = firstWorld()
+// const first = firstWorld()
 // console.log(first)
-document.querySelector('body').append(first)
+// document.querySelector('body').append(first)
 // console.log(itemTemplate)
 const data1 = {
   title: 'title1',
@@ -30,3 +31,4 @@ const array = [data1, data2]
 // console.log(array)
 const template3 = generalItem(array)
 // console.log(template3);
+
